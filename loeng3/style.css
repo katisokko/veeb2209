@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("taust1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    font-family: Arial;
+  }
+
+  .main {
+    max-width: 1500px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    word-break: break-all;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 25px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .content2 {
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
