@@ -11,6 +11,7 @@
     <title>Koerte värvimine</title>
 </head>
 <body>
+
     <header>
         <a href="index.html">
             <img src="logo.png" alt="logo">
@@ -26,12 +27,13 @@
     </nav>
 
     <main>
-        <h2>Tere tulemast!</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus erat, facilisis ut facilisis vitae, hendrerit a tortor. Fusce purus nibh, euismod vitae sapien nec, dapibus lacinia mauris. Maecenas quis viverra ipsum, id feugiat nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae orci nibh. Integer accumsan lectus vitae quam ullamcorper, non ornare nulla iaculis. Nullam pretium urna a interdum imperdiet.<br>
-            Integer bibendum neque nulla. Pellentesque tincidunt dolor mi, non laoreet risus laoreet ac. Proin nec nunc orci. Donec mattis vitae nisl sed lacinia. Sed molestie sollicitudin metus a faucibus. Quisque vitae massa lorem. Suspendisse blandit neque quis urna fermentum, quis ullamcorper dui vulputate. Nunc mattis condimentum diam non rhoncus.
-        </p>
-        <img src="koer2.jpg" alt="koer2">
+        <form action="/action_page.php">
+        <form>      
+            <input name="name" type="text" class="feedback-input" placeholder="Nimi" />   
+            <input name="email" type="text" class="feedback-input" placeholder="E-mail" />
+            <textarea name="text" class="feedback-input" placeholder="Sõnum"></textarea>
+            <input type="submit" value="SAADA"/>
+        </form>
     </main>
 
     <footer>
