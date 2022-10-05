@@ -1,0 +1,144 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    color:black;
+    overflow-x: clip;
+}
+
+.pais {
+  background-image: url("assets/Hills@2x.png");
+  height: 778px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+  padding-left: 72px;
+  padding-right: 80px;
+}
+
+.pais>nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    text-decoration: none;
+    display: flex;
+}
+
+.logo-pilt {
+    height: 74px;
+}
+
+.logo-tekst {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #0B0B0B;
+}
+
+.parem-pool {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2.67px;
+    display: flex;
+    align-items: center;
+}
+
+.parem-pool>a {
+    margin-left: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.pais>.alumine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pais>.alumine>.sisu {
+    margin-top: 230px;
+}
+
+h1, 
+h2, 
+h4 {
+    font-weight: 800;
+    letter-spacing: 0px;
+    margin: 0px;
+    color:black;
+}
+
+.pais>.alumine>.sisu>h2 {
+    font-size: 75px;
+}
+
+.pais>.alumine>.sisu>h1 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.pais>.alumine>.sisu>h2 {
+    font-size: 80px;
+    margin-top: 15px;
+}
+
+.pais>.alumine>.sisu>h4 {
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+    color:white;
+    background-color: black;
+    width: 250px;
+    padding: 20px;
+}
+
+.pais>.alumine>.pilt {
+  background-image: url("assets/Image@2x.png");
+  height: 915px;
+  width: 915px;
+  margin-right: -300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 500px;
+}
+
+.vasak>h1, 
+.vasak>h2, 
+.vasak>h3 {
+    font-weight: 800;
+    letter-spacing: 0px;
+    margin: 0px;
+    color:black;
+}
+
+.vasak>.tekst>h1 {
+    color: grey;
+    margin-top: -100px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.vasak>.tekst>h2 {
+    line-height: 95%;
+    margin-top: 17px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.vasak>.tekst>h3 {
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 20px;
+}
