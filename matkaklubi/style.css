@@ -114,32 +114,202 @@ h4 {
   border-radius: 500px;
 }
 
-.vasak>h1, 
-.vasak>h2, 
-.vasak>h3 {
-    font-weight: 800;
-    letter-spacing: 0px;
-    margin: 0px;
-    color:black;
-}
-
-.vasak>.tekst>h1 {
-    color: grey;
+.teine {
+    padding-left: 80px;
     margin-top: -100px;
-    font-weight: 800;
-    font-size: 40px;
 }
 
-.vasak>.tekst>h2 {
-    line-height: 95%;
-    margin-top: 17px;
-    font-weight: 800;
+.teine>.ylemine>h3.hall {
+    color: rgb(167, 167, 167);
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.teine>.ylemine>h3 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 58.33px;
+    margin: 0;
+    margin-top: 35px;
+    max-width: 500px;
+}
+
+.teine>.alumine {
+    display: flex;
+    gap: 34px;
+    justify-content: space-between;
+}
+
+.teine>.alumine>.vasak {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 35px;
+}
+
+.teine>.alumine>.vasak>section {
+    letter-spacing: 0px;
+    color: rgb(172, 172, 172);
+    font-size: 21px;
+    line-height: 33px;
+    margin-bottom: 150px;
+}
+
+.teine>.alumine>.vasak>.nooled {
     font-size: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
 }
 
-.vasak>.tekst>h3 {
-    margin-top: 17px;
-    font-weight: 400;
-    font-size: 20px;
+.nooled>.vasak,
+.nooled>.parem {
+    font-size: 72px;
 }
 
+.nooled>.kaldkriips {
+    margin: 0 10px;
+}
+
+.nooled>.kaldkriips,
+.nooled>.kokku-lehekylgi,
+.nooled>.parem {
+    color: #9A9A9A;
+}
+
+.nooled>.kaldkriips,
+.nooled>.kokku-lehekylgi {
+    font-size: 36px;
+}
+
+.nooled>.kokku-lehekylgi {
+    margin-top: 6px;
+}
+
+.teine>.alumine>.fotod {
+    display: flex;
+    margin-top: 25px;
+    margin-right: -150px;
+}
+
+.teine>.alumine>.fotod>.foto {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 406px;
+    width: 309px;
+    margin-left: 34px;
+    box-shadow: 28px 29px 119px -16px rgba(0, 0, 0, 0.75);
+}
+
+.teine>.alumine>.fotod>.foto1 {
+    background-image: url('assets/Layer3@2x.png');
+}
+
+.teine>.alumine>.fotod>.foto2 {
+    background-image: url('assets/Layer5@2x.png');
+
+}
+
+.teine>.alumine>.fotod>.foto3 {
+    background-image: url('assets/Layer4@2x.png');
+
+}
+
+footer {
+    background-color:#e9e8e8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    padding: 63px 42px 42px 63px;
+}
+
+.footer-up>nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 59px;
+    padding-right: 48px;
+    padding-top: 50px;
+}
+
+.footer-up>nav .footer-logo {
+    text-decoration: none;
+    display: flex;
+}
+
+.footer-up>nav .footer-logo-pilt {
+    height: 74px;
+}
+
+.footer-up>nav .footer-logo-tekst {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #0B0B0B;
+}
+
+.footer-up>nav .footer-parem-pool {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+}
+
+.footer-up>nav>.footer-parem-pool> a {
+    padding-left: 40px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-down {
+    padding-left: 59px;
+    padding-right: 48px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.footer-down>.contact>p1 {
+    font-family: Montserrat, Montserrat-ExtraBold;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    color: white;
+    background-color: black;
+    flex-direction: column;
+}
+.footer-down>.contact>p2 {
+    font-family: Montserrat, Montserrat-ExtraBold;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    line-height: 16px;
+    padding: 13px 3px 0px 3px;
+}
+
+.footer-down> p {
+    font-family: Montserrat, Montserrat-Regular; 
+    font-size: 16px;
+    margin-top: 45px;
+    text-align: left;
+    color: #010101;
+}
+
+.footer-down>.footer-ikoonid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 25px;
+    margin-top: 40px;
+}
