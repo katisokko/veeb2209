@@ -1,0 +1,37 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 50px;
+    text-align: center;
+}
+
+.uudised {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.uudis {
+    width: 250px;
+    box-shadow: 1px 2px 2px #007c92;
+    padding: 30px;
+}
+
+.uudis>img {
+    width: 250px;
+    height: 150px;
+}
+
+.kokkuvote {
+    margin-bottom: 10px;
+}
+
+.sisu {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}
